@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="eb1.css">
+</head>
+<script type="text/javascript">
+	 function navigateToBack() {
+            location.assign('eboards.html')        }
+</script>
+<body>
+<div class="main">
+	<div class="navbar">
+    <div class="logo">
+        <img src="iotlog.png" alt="Logo">
+    </div>
+    <div class="list">
+        <ul>
+            
+            <li><a href="projects.html">IoT Boards</a></li>
+           
+        </ul>
+
+    </div>
+   
+        <div class="store">
+        <button class="storebutton" onclick="navigateToBack()">Go Back</button>
+    </div>
+</div>
+<div class="c1">
+	<div class="eb1img1"><img src="eb1.png" class="eb1img"></div>
+	<div class="eb1name1"><h3 class="eb1name">Uno R3 CH340G ATmega328p</h3></div>
+
+</div>
+<div class="c2">
+	<p class="c2p1">The CH340 Arduino board contains an ATmega328P-U-TH chip, which differs from the classic ATmega328P-PU in official Arduino Uno Rev3 boards. The CH340 is an inexpensive USB-to-Serial chip (datasheet here) that takes the place of the Rev3 board’s more expensive ATmega16U2. This creates issues when programming the Arduino board with certain operating systems (specifically Windows), however, for most Linux and Mac systems - there appears to be no issue. In this tutorial, I will explore the CH340 Arduino board to see whether there are differences in performance and power under different operating conditions. This will definitively answer whether the CH340 is a worthy alternative to the Rev3 or if it’s just a cheap imposter.</p>
+	<hr class="c2line">
+	<h3 class="c2h1">Compatibility Issues</h3>
+	<p class="c2p2">One of the most cited complaints regarding the CH340 is its lack of compatibility with certain operating systems. I have tested the CH340 and Uno Rev3 on several systems with the following results:</p>
+	<img src="eb.png" class="ebimg">
+</div>
+</div>
+</body>
+</html>

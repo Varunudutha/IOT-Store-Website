@@ -1,0 +1,173 @@
+.{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: white;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.main{
+	display: flex;
+}
+.leftar{
+	background-color: #BCC9D5;
+	margin-top: 40px;
+	margin-left: 20px;
+	width: 30px;
+	height: 20px;
+	padding: 6px;
+	border-radius: 10px;
+}
+
+.logplace{
+	width: 800px;
+	height: 600px;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.img1{
+	width: 60px;
+	height: 60px;
+	margin-left: 350px;
+	cursor: pointer;
+}
+.l1{
+	font-size: 30px;
+	margin-top: -5px;
+	margin-left: 200px;
+}
+.name1{
+	width: 250px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #C1CCDA;
+}
+.name1:hover{
+	border: 1px solid black;
+}
+.name2{
+	width: 250px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #C1CCDA;
+	margin-left: 20px;
+}
+.name2:hover{
+	border: 1px solid black;
+}
+.names{
+	text-align: center;
+}
+
+.pass1{
+	width: 250px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #C1CCDA;
+}
+.pass1:hover{
+	border: 1px solid black;
+}
+.pass2{
+	width: 250px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #C1CCDA;
+	margin-left: 20px;
+}
+.pass2:hover{
+	border: 1px solid black;
+}
+.pass{
+	text-align: center;
+	margin-top: 20px;
+}
+.email{
+
+}
+.email1{
+	width: 250px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #C1CCDA;
+	margin-left: 135px;
+	margin-top: 20px;
+}
+.email1:hover{
+	border: 1px solid black;
+}
+.dob1{
+	font-weight: bold;
+	margin-left: 135px;
+}
+.dob2{
+	margin-left: 10px;
+}
+.dob{
+		margin-top: 20px;
+}
+.gender1{
+	font-weight: bold;
+	margin-left: 135px;
+}
+.gender2{
+	margin-left: 50px;
+}
+.male1{
+	font-weight: bold;
+}
+.gender3{
+	margin-left: 50px;
+}
+.female1{
+	font-weight: bold;
+}
+.gender{
+	margin-top: 20px;
+}
+.num{
+	margin-top: 40px;
+	text-align: center;
+}
+.signup{
+	width: 300px;
+	height: 40px;
+	color: white;
+	background-color: #0256B5;
+	border-radius: 10px;
+	border: 1px solid #C1CCDA;
+	font-weight: bold;
+}
+.signup:hover{
+	background-color: #0D6BD6;
+}
+.policy{
+	margin-left: 130px;
+	margin-top: 40px;
+}
+.policy1{
+	width: 20px;
+	height: 20px;
+}
+.policy2{
+	margin-left: 20px;
+}
+.a1{
+	text-decoration: none;
+	color: #00487A;
+}
+.a2{
+	text-decoration: none;
+	color: #00487A;
+}
+.side{
+	margin-top: -500px;
+	margin-left: 650px;
+}
+.side1{
+	width: 650px;
+	height: 500px;
+	cursor: pointer;
+}
