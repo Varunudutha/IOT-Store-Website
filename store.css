@@ -1,0 +1,302 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000E26;
+            border-radius: 5px;
+            color: white;
+        }
+
+        .navbar img {
+            width: 50px;
+            height: 50px;
+            margin-left: 40px;
+            cursor: pointer;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar li {
+            margin-right: 50px;
+        }
+
+        .navbar li:last-child {
+            margin-right: 0;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #E7E7E7;
+            font-weight: bold;
+            font-size: 20px;
+            position: relative;
+        }
+        .navbar a:hover{
+            color: white;
+            width: 100%
+        }
+        .navbar a::after{
+           content: "";
+           width: 0;
+           height: 3px;
+           background: #003756;
+           position: absolute;
+           left: 0;
+           bottom: -5px;
+           transition: 1s;
+       }
+       .navbar a:hover::after{
+        width: 100%;
+       }
+       
+        .store{
+            margin-right: 40px;
+        }
+        .storebutton {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            color: #E7E7E7;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .storebutton:hover{
+            background-color: #4BA334;
+            color: white;
+        }
+
+        .minnav{
+            display: flex;
+            
+            margin-top: 20px;
+        }
+        .menu{
+            margin-left: 20px;
+            position: relative;
+            display: inline-block;
+        }
+        .menucontent{
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 250px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 5px;
+        }
+        .mp{
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .mp:hover{
+            background-color: #ddd;
+        }
+        .menu:hover .menucontent{
+            display: block;
+        }
+        .menu:hover .menu1{
+            background-color: #DCDFDF;
+        }
+        .lp1{
+            font-weight: bold;
+            color: black;
+            cursor: pointer;
+        }
+ .searchbar {
+            display: flex;
+            align-items: center;
+            margin-left: 150px;
+        }
+
+        .menu1{
+            width: 30px;
+            height: 30px;
+            margin-top: 10px;
+            margin-right: 15px;
+            cursor: pointer;
+        }
+        .wish{
+            margin-left: 250px;
+        }
+        .wishname{
+            font-size: 15px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+        .cartname{
+            font-size: 15px;
+            margin-left: 13px;
+            cursor: pointer;
+        }
+        .se1 {
+            padding: 5px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            width: 500px;
+            height: 30px;
+
+        }
+        .se2{
+            width: 150px;
+            height: 40px;
+            border-radius: 20px;
+            border: none;
+            font-weight: bold;
+            background-color: #0C4768;
+            color: #E7E7E7;
+          
+        }
+        .se2:hover{
+            background-color: #406A81;
+            color: white;
+        }
+        .wish1{
+            width: 30px;
+            height: 30px;
+            margin-top: 10px;
+            margin-right: 15px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        .cart1{
+            width: 30px;
+            height: 30px;
+            margin-top: 10px;
+            margin-right: 15px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .nav3{
+            border: 1px solid #CCD3CA;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 40px;
+            border-radius: 5px;
+            background-color: #B5C0D0;
+        }
+        .he1{
+            font-weight: bold;
+        }
+        .he2{
+            font-weight: bold;
+        }
+        .he3{
+            font-weight: bold;
+        }
+        .he4{
+            font-weight: bold;
+        }
+        .pe1{
+            font-size: 15px;
+        }
+        .pe2{
+            font-size: 15px;
+        }
+        .pe3{
+            font-size: 15px;
+        }
+        .pe4{
+            font-size: 15px;
+        }
+        .p1{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .p2{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .p3{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .p4{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .cardplace1{
+            display: flex;
+            margin-top: 80px;
+        }
+        .content1{
+            margin-left: 20px;
+        }
+        .cp1{
+            width: 600px;
+            font-size: 17px;
+            word-spacing: 5px;
+        }
+        .cb1{
+            width: 150px;
+            height: 35px;
+            border-radius: 20px;
+            border: none;
+            background-color: #0C4768;
+            color: white;
+            font-weight: bold;
+        }
+        .cb1:hover{
+            background-color: #406A81;
+            color: white;
+        }
+        .cimg1{
+            width: 500px;
+            height: 330px;
+            margin-left: 200px;
+            border-radius: 20px;
+        }
+
+
+
+         .cardplace2{
+            display: flex;
+            margin-top: 80px;
+        }
+        .content2{
+            margin-left: 200px;
+        }
+        .cp2{
+            width: 600px;
+            font-size: 17px;
+            word-spacing: 5px;
+        }
+        .cb2{
+            width: 150px;
+            height: 35px;
+            border-radius: 20px;
+            border: none;
+            background-color: #0C4768;
+            color: white;
+            font-weight: bold;
+        }
+        .cb2:hover{
+            background-color: #406A81;
+            color: white;
+        }
+        .c2img2{
+            width: 500px;
+            height: 330px;
+            border-radius: 20px;
+            margin-left: 20px;
+        }

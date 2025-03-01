@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title><link rel="stylesheet" type="text/css" href="components.css">
+</head>
+<body>
+	<script type="text/javascript">
+        function navigateToBack() {
+            location.assign('index.html')        }
+            function navigateToPage1() {
+            location.assign('eboards.html')        }
+            function navigateToPage2() {
+            location.assign('esensors.html')        }
+            function navigateToPage3() {
+            location.assign('ecables.html')        }
+    </script>
+
+	<div class="main">
+		<div class="navbar">
+    <div class="logo">
+        <img src="iotlog.png" alt="Logo">
+    </div>
+    <div class="list">
+        <ul>
+            
+            <li><a href="projects.html">Components</a></li>
+           
+        </ul>
+
+    </div>
+   
+        <div class="store">
+        <button class="storebutton" onclick="navigateToBack()">Go Back</button>
+    </div>
+</div>
+
+<div class="cr1">
+
+	<div class="card1" onclick="navigateToPage1()">
+		<img src="boards.jpg" class="c1">
+		<h2 class="ch1">IoT Boards</h2>
+	</div>
+	<div class="card2"  onclick="navigateToPage2()">
+		<img src="sensors.webp" class="c2">
+		<h2 class="ch1">IoT Sensors</h2>
+	</div>
+	<div class="card3"  onclick="navigateToPage3()">
+		<img src="cables.webp" class="c3">
+		<h2 class="ch1">IoT Cables & Connections</h2>
+	</div>
+
+</div>
+
+	</div>
+</body>
+</html>

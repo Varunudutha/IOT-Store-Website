@@ -1,0 +1,260 @@
+.{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.sh1{
+	color: black;
+	font-weight: bold;
+	font-size: 45px;
+	text-align: center;
+	font-family: "DM Serif Display", serif;
+}
+.card1{
+	display: flex;
+	margin-left: 125px;
+}
+.c1{
+	width: 600px;
+	height: 300px;
+	background-color: #E7E7E7;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.l1img{
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.lines{
+	display: flex;
+}
+.l2p{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 35px;
+	margin-left: 10px;
+}
+.l3p{
+	color: black;
+	font-size: 15px;
+	word-spacing: 5px;
+	font-family: "Didact Gothic", sans-serif;
+	width: 500px;
+	margin-left: 40px;
+	line-height: 20px;
+}
+.c2{
+	width: 500px;
+	height: 300px;
+	background: #6EA4E8;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.c2a{
+	margin-left: 40px;
+	font-weight: bold;
+	font-size: 15px;
+}
+.c2h{
+	margin-left: 40px;
+	font-weight: bold;
+	font-family: "Black Ops One", system-ui;
+}
+.a1{
+	color: white;
+	text-decoration: none;
+}
+.a2{
+	color: white;
+	text-decoration: none;
+}
+.a3{
+	color: white;
+	text-decoration: none;
+}
+.a4{
+	color: white;
+	text-decoration: none;
+}
+.a5{
+	color: white;
+	text-decoration: none;
+}
+.a6{
+	color: white;
+	text-decoration: none;
+}
+.a7{
+	color: white;
+	text-decoration: none;
+}
+.a1:hover{
+	color: blue;
+}
+.a2:hover{
+	color: blue;
+}
+.a3:hover{
+	color: blue;
+}
+.a4:hover{
+	color: blue;
+}
+.a5:hover{
+	color: blue;
+}
+.a6:hover{
+	color: blue;
+}
+.a7:hover{
+	color: blue;
+}
+
+.card2{
+	width: 1100px;
+	margin-left: 125px;
+	background: #E7E7E7;
+	border-radius: 15px;
+	margin-top: 50px;
+}
+.card2h1{
+	font-size: 15px;
+	text-align: center;
+	padding-top: 10px;
+}
+.card2l2{
+	width: 900px;
+	margin-left: 100px;
+	font-size: 15px;
+	padding-bottom: 20px;
+}
+
+
+.card3{
+	width: 1100px;
+	margin-left: 125px;
+	background: #E7E7E7;
+	border-radius: 15px;
+	margin-top: 50px;
+}
+.card3h1{
+	font-size: 15px;
+	text-align: center;
+	padding-top: 10px;
+}
+.card3l2{
+	width: 900px;
+	margin-left: 100px;
+	font-size: 15px;
+	padding-bottom: 20px;
+}
+
+
+
+
+.card4{
+	display: flex;
+	margin-left: 125px;
+	margin-top: 50px;
+}
+.card4c1{
+	width: 600px;
+	height: 250px;
+	background-color: #E7E7E7;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.card4l1img{
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.card4lines{
+	display: flex;
+}
+.card4l2p{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 35px;
+	margin-left: 10px;
+}
+.card4l3p{
+	color: black;
+	font-size: 15px;
+	word-spacing: 5px;
+	font-family: "Didact Gothic", sans-serif;
+	width: 500px;
+	margin-left: 40px;
+	line-height: 20px;
+}
+.card4c2{
+	width: 500px;
+	height: 250px;
+	background: #6EA4E8;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.card4c2a{
+	margin-left: 40px;
+	font-weight: bold;
+	font-size: 15px;
+}
+.card4c2h{
+	margin-left: 40px;
+	font-weight: bold;
+	font-family: "Black Ops One", system-ui;
+}
+.card4a1{
+	color: white;
+	text-decoration: none;
+}
+.card4a2{
+	color: white;
+	text-decoration: none;
+}
+.card4a3{
+	color: white;
+	text-decoration: none;
+}
+.card4a4{
+	color: white;
+	text-decoration: none;
+}
+.card4a5{
+	color: white;
+	text-decoration: none;
+}
+.card4a6{
+	color: white;
+	text-decoration: none;
+}
+.card4a7{
+	color: white;
+	text-decoration: none;
+}
+.card4a1:hover{
+	color: blue;
+}
+.card4a2:hover{
+	color: blue;
+}
+.card4a3:hover{
+	color: blue;
+}
+.card4a4:hover{
+	color: blue;
+}
+.card4a5:hover{
+	color: blue;
+}
+.card4a6:hover{
+	color: blue;
+}
+.card4a7:hover{
+	color: blue;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title><link rel="stylesheet" type="text/css" href="login.css">
+	 <script>
+        function validatePassword(event) {
+            var password = document.querySelector('.pass').value;
+            var passwordPattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/;
+            var messageElement = document.querySelector('.password-message');
+            if (!passwordPattern.test(password)) {
+                event.preventDefault(); // Prevent form submission
+                messageElement.innerText = 'Password must be at least 8 characters long and contain at least one digit, one lowercase letter, and one uppercase letter.';
+                return false;
+            } else {
+                messageElement.innerText = 'Password is correct!';
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+<div class="main">
+	<div class="arrow">
+		<a href="main.html"><img src="la.png" class="leftar"></a>
+	</div>
+	<div class="logplace">
+		<img src="iotlog.png" class="img1">
+		<h2 class="l1">Sign in to IoT Spot MREC (A)</h2>
+		<input type="text" name="" placeholder="Username or email" class="email" required><br>
+		<input type="password" name="" placeholder="Password" class="pass" required>
+		<div class="forc">
+		<a href="forget.html" class="for">Forgot your password?</a>
+	</div>
+		<div class="sign"><a href="index.html"><button class="b1">Sign In</button></a></div>
+			<p class="p1">Don’t have an account yet?<a href="create.html" class="cre">Create one</a></p>
+			<div class="or">
+			<p>Or sign in with</p>
+		</div>
+			<div class="with">
+				<div class="w1">
+					<button class="wb1"><img src="apple.png" class="wimg1">Apple</button>
+				</div>
+				<div class="w2">
+					<button class="wb2"><img src="google.png" class="wimg2">Google</button>
+				</div>
+				<div class="w3">
+					<button class="wb3"><img src="facebook.png" class="wimg3">Facebook</button>
+				</div>
+				<div class="w4">
+					<button class="wb4"><img src="github.png" class="wimg4">GitHub</button>
+				</div>
+			</div>
+
+	</div>
+	<div class="side">
+		<img src="side1.png" class="side1">
+	</div>
+</div>
+</body>
+</html>

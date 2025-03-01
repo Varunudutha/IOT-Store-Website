@@ -1,0 +1,171 @@
+.{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: white;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.main{
+	display: flex;
+}
+.leftar{
+	background-color: #BCC9D5;
+	margin-top: 40px;
+	margin-left: 20px;
+	width: 30px;
+	height: 20px;
+	padding: 6px;
+	border-radius: 10px;
+}
+
+.logplace{
+	width: 800px;
+	height: 600px;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.img1{
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+}
+.l1{
+	font-size: 30px;
+	margin-top: -5px;
+}
+.email{
+	width: 250px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #C1CCDA;
+}
+.email:hover{
+	border: 1px solid black;
+}
+.pass{
+	width: 250px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #C1CCDA;
+	margin-top: 20px;
+}
+.pass:hover{
+	border: 1px solid black;
+}
+.for{
+	color: #00487A;
+	text-decoration: none;
+	font-weight: bold;
+}
+.forc{
+	margin-top: 30px;
+	margin-left: -100px;
+}
+.b1{
+	background-color: #00487A;
+	width: 100px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid #C1CCDA;
+	margin-right: -150px;
+	margin-top: 20px;
+	font-weight: bold;
+	color: white;
+}
+.b1:hover{
+	color: white;
+	background-color: #0564A5;
+}
+.p1{
+	font-weight: bold;
+		margin-top: 40px;
+}
+.cre{
+	color: #00487A;
+	text-decoration: none;
+	margin-left: 5px;
+}
+.or{
+		margin-top: 40px;
+}
+.with{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: space-evenly;
+	margin-top: 40px;
+}
+.wimg1{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.wimg2{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.wimg3{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.wimg4{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.wb1{
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid #C1CCDA;
+	font-weight: bold;
+	font-size: 20px;
+}
+.wb1:hover{
+	border: 1px solid #8C9AA9;
+}
+.wb2{
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid #C1CCDA;
+	font-weight: bold;
+	font-size: 20px;
+}
+.wb2:hover{
+	border: 1px solid #8C9AA9;
+}
+.wb3{
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid #C1CCDA;
+	font-weight: bold;
+	font-size: 20px;
+}
+.wb3:hover{
+	border: 1px solid #8C9AA9;
+}
+.wb4{
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid #C1CCDA;
+	font-weight: bold;
+	font-size: 20px;
+}
+.wb4:hover{
+	border: 1px solid #8C9AA9;
+}
+.side1{
+	width: 300px;
+	height: 400px;
+	margin-top: 100px;
+	margin-left: 50px;
+	cursor: pointer;
+}

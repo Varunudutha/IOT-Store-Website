@@ -1,0 +1,1092 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000E26;
+            border-radius: 5px;
+            color: white;
+        }
+
+        .navbar img {
+            width: 50px;
+            height: 50px;
+            margin-left: 40px;
+            cursor: pointer;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar li {
+            margin-right: 50px;
+        }
+
+        .navbar li:last-child {
+            margin-right: 0;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #E7E7E7;
+            font-weight: bold;
+            font-size: 35px;
+            position: relative;
+        }
+        .navbar a:hover{
+            color: white;
+            width: 100%
+        }
+        .navbar a::after{
+           content: "";
+           width: 0;
+           height: 3px;
+           background: #003756;
+           position: absolute;
+           left: 0;
+           bottom: -5px;
+           transition: 1s;
+       }
+       .navbar a:hover::after{
+        width: 100%;
+       }
+       
+        .store{
+            margin-right: 40px;
+        }
+        .storebutton {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            color: #E7E7E7;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .storebutton:hover{
+            background-color: #4BA334;
+            color: white;
+        }
+
+        .minnav{
+            display: flex;
+            
+            margin-top: 20px;
+        }
+        .menu{
+            margin-left: 20px;
+            position: relative;
+            display: inline-block;
+        }
+        .menucontent{
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 250px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 5px;
+        }
+        .mp{
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .mp:hover{
+            background-color: #ddd;
+        }
+        .menu:hover .menucontent{
+            display: block;
+        }
+        .menu:hover .menu1{
+            background-color: #DCDFDF;
+        }
+        .lp1{
+            font-weight: bold;
+            color: black;
+            cursor: pointer;
+        }
+ .searchbar {
+            display: flex;
+            align-items: center;
+            margin-left: 150px;
+        }
+
+        .menu1{
+            width: 30px;
+            height: 30px;
+            margin-top: 10px;
+            margin-right: 15px;
+            cursor: pointer;
+        }
+        .wish{
+            margin-left: 250px;
+        }
+        .wishname{
+            font-size: 15px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+        .cartname{
+            font-size: 15px;
+            margin-left: 13px;
+            cursor: pointer;
+        }
+        .se1 {
+            padding: 5px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            width: 500px;
+            height: 30px;
+
+        }
+        .se2{
+            width: 150px;
+            height: 40px;
+            border-radius: 20px;
+            border: none;
+            font-weight: bold;
+            background-color: #0C4768;
+            color: #E7E7E7;
+          
+        }
+        .se2:hover{
+            background-color: #406A81;
+            color: white;
+        }
+        .wish1{
+            width: 30px;
+            height: 30px;
+            margin-top: 10px;
+            margin-right: 15px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        .cart1{
+            width: 30px;
+            height: 30px;
+            margin-top: 10px;
+            margin-right: 15px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .bgimg1{
+            width: 100%;
+            height: 400px;
+            margin-top: 50px;
+            border-radius: 10px;
+        }
+
+        .pr1{
+            display: flex;
+            margin-top: 40px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .pc1{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .pc1:hover{
+            box-shadow: 0px 0px 10px 4px #C4C4C4;
+        }
+        .pc1img1{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+        }
+        .pc1text1{
+            font-weight: bold;
+        }
+        .pc1currency{
+            display: flex;
+            margin-top: -20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .pc1textc1{
+            text-decoration: line-through;
+        }
+        .pc1but1{
+            background-color: #FAE807;
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #F7E612;
+            color: black;
+            font-weight: bold;
+        }
+        .pc1but1:hover{
+            background-color: #FCF165;
+        }
+        .pc1wish3{
+            width: 25px;
+            height: 25px;
+        }
+        .pc1cart3{
+            width: 25px;
+            height: 25px;
+        }
+
+
+         .pc2{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .pc2:hover{
+            box-shadow: 0px 0px 10px 4px #C4C4C4;
+        }
+        .pc2img1{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+        }
+        .pc2text1{
+            font-weight: bold;
+        }
+        .pc2currency{
+            display: flex;
+            margin-top: -20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .pc2textc1{
+            text-decoration: line-through;
+        }
+        .pc2but1{
+            background-color: #FAE807;
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #F7E612;
+            color: black;
+            font-weight: bold;
+        }
+        .pc2but1:hover{
+            background-color: #FCF165;
+        }
+        .pc2wish3{
+            width: 25px;
+            height: 25px;
+        }
+        .pc2cart3{
+            width: 25px;
+            height: 25px;
+        }
+
+
+
+
+         .pc3{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .pc3:hover{
+            box-shadow: 0px 0px 10px 4px #C4C4C4;
+        }
+        .pc3img1{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+        }
+        .pc3text1{
+            font-weight: bold;
+            margin-top: -5px;
+        }
+        .pc3currency{
+            display: flex;
+            margin-top: -20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .pc3textc1{
+            text-decoration: line-through;
+        }
+        .pc3but1{
+            background-color: #FAE807;
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #F7E612;
+            color: black;
+            font-weight: bold;
+        }
+        .pc3but1:hover{
+            background-color: #FCF165;
+        }
+        .pc3wish3{
+            width: 25px;
+            height: 25px;
+        }
+        .pc3cart3{
+            width: 25px;
+            height: 25px;
+        }
+
+
+
+
+
+         .pc4{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .pc4:hover{
+            box-shadow: 0px 0px 10px 4px #C4C4C4;
+        }
+        .pc4img1{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+        }
+        .pc4text1{
+            font-weight: bold;
+        }
+        .pc4currency{
+            display: flex;
+            margin-top: -20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .pc4textc1{
+            text-decoration: line-through;
+        }
+        .pc4but1{
+            background-color: #FAE807;
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #F7E612;
+            color: black;
+            font-weight: bold;
+        }
+        .pc4but1:hover{
+            background-color: #FCF165;
+        }
+        .pc4wish3{
+            width: 25px;
+            height: 25px;
+        }
+        .pc4cart3{
+            width: 25px;
+            height: 25px;
+        }
+
+
+
+
+
+         .pr2{
+            display: flex;
+            margin-top: 40px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .ppc1{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .ppc1:hover{
+            box-shadow: 0px 0px 10px 4px #C4C4C4;
+        }
+        .ppc1img1{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+        }
+        .ppc1text1{
+            font-weight: bold;
+        }
+        .ppc1currency{
+            display: flex;
+            margin-top: -20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .ppc1textc1{
+            text-decoration: line-through;
+        }
+        .ppc1but1{
+            background-color: #FAE807;
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #F7E612;
+            color: black;
+            font-weight: bold;
+        }
+        .ppc1but1:hover{
+            background-color: #FCF165;
+        }
+        .ppc1wish3{
+            width: 25px;
+            height: 25px;
+        }
+        .ppc1cart3{
+            width: 25px;
+            height: 25px;
+        }
+
+
+         .ppc2{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .ppc2:hover{
+            box-shadow: 0px 0px 10px 4px #C4C4C4;
+        }
+        .ppc2img1{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+        }
+        .ppc2text1{
+            font-weight: bold;
+        }
+        .ppc2currency{
+            display: flex;
+            margin-top: -20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .ppc2textc1{
+            text-decoration: line-through;
+        }
+        .ppc2but1{
+            background-color: #FAE807;
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #F7E612;
+            color: black;
+            font-weight: bold;
+        }
+        .ppc2but1:hover{
+            background-color: #FCF165;
+        }
+        .ppc2wish3{
+            width: 25px;
+            height: 25px;
+        }
+        .ppc2cart3{
+            width: 25px;
+            height: 25px;
+        }
+
+
+
+
+         .ppc3{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .ppc3:hover{
+            box-shadow: 0px 0px 10px 4px #C4C4C4;
+        }
+        .ppc3img1{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+        }
+        .ppc3text1{
+            font-weight: bold;
+            margin-top: -5px;
+        }
+        .ppc3currency{
+            display: flex;
+            margin-top: -20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .ppc3textc1{
+            text-decoration: line-through;
+        }
+        .ppc3but1{
+            background-color: #FAE807;
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #F7E612;
+            color: black;
+            font-weight: bold;
+        }
+        .ppc3but1:hover{
+            background-color: #FCF165;
+        }
+        .ppc3wish3{
+            width: 25px;
+            height: 25px;
+        }
+        .ppc3cart3{
+            width: 25px;
+            height: 25px;
+        }
+
+
+
+
+
+         .ppc4{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .ppc4:hover{
+            box-shadow: 0px 0px 10px 4px #C4C4C4;
+        }
+        .ppc4img1{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+        }
+        .ppc4text1{
+            font-weight: bold;
+        }
+        .ppc4currency{
+            display: flex;
+            margin-top: -20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .ppc4textc1{
+            text-decoration: line-through;
+        }
+        .ppc4but1{
+            background-color: #FAE807;
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #F7E612;
+            color: black;
+            font-weight: bold;
+        }
+        .ppc4but1:hover{
+            background-color: #FCF165;
+        }
+        .ppc4wish3{
+            width: 25px;
+            height: 25px;
+        }
+        .ppc4cart3{
+            width: 25px;
+            height: 25px;
+        }
+
+
+
+
+
+
+
+
+
+          .pr3{
+            display: flex;
+            margin-top: 40px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .pppc1{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .pppc1:hover{
+            box-shadow: 0px 0px 10px 4px #C4C4C4;
+        }
+        .pppc1img1{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+        }
+        .pppc1text1{
+            font-weight: bold;
+        }
+        .pppc1currency{
+            display: flex;
+            margin-top: -20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .pppc1textc1{
+            text-decoration: line-through;
+        }
+        .pppc1but1{
+            background-color: #FAE807;
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #F7E612;
+            color: black;
+            font-weight: bold;
+        }
+        .pppc1but1:hover{
+            background-color: #FCF165;
+        }
+        .pppc1wish3{
+            width: 25px;
+            height: 25px;
+        }
+        .pppc1cart3{
+            width: 25px;
+            height: 25px;
+        }
+
+
+         .pppc2{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .pppc2:hover{
+            box-shadow: 0px 0px 10px 4px #C4C4C4;
+        }
+        .pppc2img1{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+        }
+        .pppc2text1{
+            font-weight: bold;
+        }
+        .pppc2currency{
+            display: flex;
+            margin-top: -20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .pppc2textc1{
+            text-decoration: line-through;
+        }
+        .pppc2but1{
+            background-color: #FAE807;
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #F7E612;
+            color: black;
+            font-weight: bold;
+        }
+        .pppc2but1:hover{
+            background-color: #FCF165;
+        }
+        .pppc2wish3{
+            width: 25px;
+            height: 25px;
+        }
+        .pppc2cart3{
+            width: 25px;
+            height: 25px;
+        }
+
+
+
+
+         .pppc3{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .pppc3:hover{
+            box-shadow: 0px 0px 10px 4px #C4C4C4;
+        }
+        .pppc3img1{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+        }
+        .pppc3text1{
+            font-weight: bold;
+            margin-top: -5px;
+        }
+        .pppc3currency{
+            display: flex;
+            margin-top: -20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .pppc3textc1{
+            text-decoration: line-through;
+        }
+        .pppc3but1{
+            background-color: #FAE807;
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #F7E612;
+            color: black;
+            font-weight: bold;
+        }
+        .pppc3but1:hover{
+            background-color: #FCF165;
+        }
+        .pppc3wish3{
+            width: 25px;
+            height: 25px;
+        }
+        .pppc3cart3{
+            width: 25px;
+            height: 25px;
+        }
+
+
+
+
+
+         .pppc4{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .pppc4:hover{
+            box-shadow: 0px 0px 10px 4px #C4C4C4;
+        }
+        .pppc4img1{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+        }
+        .pppc4text1{
+            font-weight: bold;
+        }
+        .pppc4currency{
+            display: flex;
+            margin-top: -20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .pppc4textc1{
+            text-decoration: line-through;
+        }
+        .pppc4but1{
+            background-color: #FAE807;
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #F7E612;
+            color: black;
+            font-weight: bold;
+        }
+        .pppc4but1:hover{
+            background-color: #FCF165;
+        }
+        .pppc4wish3{
+            width: 25px;
+            height: 25px;
+        }
+        .pppc4cart3{
+            width: 25px;
+            height: 25px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+         .pr4{
+            display: flex;
+            margin-top: 40px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .ppppc1{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .ppppc1:hover{
+            box-shadow: 0px 0px 10px 4px #C4C4C4;
+        }
+        .ppppc1img1{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+        }
+        .ppppc1text1{
+            font-weight: bold;
+        }
+        .ppppc1currency{
+            display: flex;
+            margin-top: -20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .ppppc1textc1{
+            text-decoration: line-through;
+        }
+        .ppppc1but1{
+            background-color: #FAE807;
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #F7E612;
+            color: black;
+            font-weight: bold;
+        }
+        .ppppc1but1:hover{
+            background-color: #FCF165;
+        }
+        .ppppc1wish3{
+            width: 25px;
+            height: 25px;
+        }
+        .ppppc1cart3{
+            width: 25px;
+            height: 25px;
+        }
+
+
+         .ppppc2{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .ppppc2:hover{
+            box-shadow: 0px 0px 10px 4px #C4C4C4;
+        }
+        .ppppc2img1{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+        }
+        .ppppc2text1{
+            font-weight: bold;
+        }
+        .ppppc2currency{
+            display: flex;
+            margin-top: -20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .ppppc2textc1{
+            text-decoration: line-through;
+        }
+        .ppppc2but1{
+            background-color: #FAE807;
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #F7E612;
+            color: black;
+            font-weight: bold;
+        }
+        .ppppc2but1:hover{
+            background-color: #FCF165;
+        }
+        .ppppc2wish3{
+            width: 25px;
+            height: 25px;
+        }
+        .ppppc2cart3{
+            width: 25px;
+            height: 25px;
+        }
+
+
+
+
+         .ppppc3{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .ppppc3:hover{
+            box-shadow: 0px 0px 10px 4px #C4C4C4;
+        }
+        .ppppc3img1{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+        }
+        .ppppc3text1{
+            font-weight: bold;
+            margin-top: -5px;
+        }
+        .ppppc3currency{
+            display: flex;
+            margin-top: -20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .ppppc3textc1{
+            text-decoration: line-through;
+        }
+        .ppppc3but1{
+            background-color: #FAE807;
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #F7E612;
+            color: black;
+            font-weight: bold;
+        }
+        .ppppc3but1:hover{
+            background-color: #FCF165;
+        }
+        .ppppc3wish3{
+            width: 25px;
+            height: 25px;
+        }
+        .ppppc3cart3{
+            width: 25px;
+            height: 25px;
+        }
+
+
+
+
+
+         .ppppc4{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .ppppc4:hover{
+            box-shadow: 0px 0px 10px 4px #C4C4C4;
+        }
+        .ppppc4img1{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+        }
+        .ppppc4text1{
+            font-weight: bold;
+        }
+        .ppppc4currency{
+            display: flex;
+            margin-top: -20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .ppppc4textc1{
+            text-decoration: line-through;
+        }
+        .ppppc4but1{
+            background-color: #FAE807;
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #F7E612;
+            color: black;
+            font-weight: bold;
+        }
+        .ppppc4but1:hover{
+            background-color: #FCF165;
+        }
+        .ppppc4wish3{
+            width: 25px;
+            height: 25px;
+        }
+        .ppppc4cart3{
+            width: 25px;
+            height: 25px;
+        }
